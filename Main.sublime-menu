@@ -1,5 +1,28 @@
 [
     {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "ToptalMinifier",
+                        "children": [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/ToptalMinifier/ToptalMinifier.sublime-settings",
+                                    "default": "{\n    \"timeout_seconds\": 30,\n    \"user_agent\": \"Sublime Text Toptal Minifier/1.0.0\",\n    \"javascript_config\": null\n}\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "tools",
         "children": [
             {
@@ -17,7 +40,9 @@
                         "caption": "Minify Current CSS/JS To Clipboard",
                         "command": "toptal_minifier_copy"
                     },
-                    {"caption": "-"},
+                    {
+                        "caption": "-"
+                    },
                     {
                         "caption": "Minify As CSS In Place",
                         "command": "toptal_minifier_replace",

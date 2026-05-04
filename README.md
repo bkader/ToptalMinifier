@@ -56,8 +56,8 @@ Open a CSS or JavaScript file, then run one of these commands from the Command P
 
 Default key binding:
 
-- Windows/Linux: `Ctrl+Alt+M`
-- macOS: `Cmd+Alt+M`
+- Windows/Linux: `Ctrl+Alt+Shift+M`
+- macOS: `Cmd+Alt+Shift+M`
 
 ## Settings
 
