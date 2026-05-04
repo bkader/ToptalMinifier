@@ -27,3 +27,16 @@
 *.ico binary
 *.zip binary
 *.sublime-package binary
+
+# Exclude development/generated files from Package Control release archives
+.gitattributes export-ignore
+.editorconfig export-ignore
+.gitignore export-ignore
+CITATION.cff export-ignore
+package-metadata.json export-ignore
+*.sublime-workspace export-ignore
+*.sublime-project export-ignore
+__pycache__/ export-ignore
+*.py[cod] export-ignore
+dist/ export-ignore
+build/ export-ignore
