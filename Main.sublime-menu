@@ -1,0 +1,35 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "caption": "Toptal Minifier",
+                "children": [
+                    {
+                        "caption": "Minify Current CSS/JS In Place",
+                        "command": "toptal_minifier_replace"
+                    },
+                    {
+                        "caption": "Minify Current CSS/JS To New View",
+                        "command": "toptal_minifier_new_view"
+                    },
+                    {
+                        "caption": "Minify Current CSS/JS To Clipboard",
+                        "command": "toptal_minifier_copy"
+                    },
+                    {"caption": "-"},
+                    {
+                        "caption": "Minify As CSS In Place",
+                        "command": "toptal_minifier_replace",
+                        "args": {"kind": "css"}
+                    },
+                    {
+                        "caption": "Minify As JavaScript In Place",
+                        "command": "toptal_minifier_replace",
+                        "args": {"kind": "js"}
+                    }
+                ]
+            }
+        ]
+    }
+]

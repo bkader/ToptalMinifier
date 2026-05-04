@@ -1,0 +1,20 @@
+[
+    {"caption": "-"},
+    {
+        "caption": "Toptal Minifier",
+        "children": [
+            {
+                "caption": "Minify Current CSS/JS In Place",
+                "command": "toptal_minifier_replace"
+            },
+            {
+                "caption": "Minify Current CSS/JS To New View",
+                "command": "toptal_minifier_new_view"
+            },
+            {
+                "caption": "Minify Current CSS/JS To Clipboard",
+                "command": "toptal_minifier_copy"
+            }
+        ]
+    }
+]

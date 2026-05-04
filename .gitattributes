@@ -1,0 +1,29 @@
+# Normalize text files in the repo to LF
+* text=auto eol=lf
+
+# Sublime package files
+*.sublime-commands text eol=lf
+*.sublime-keymap text eol=lf
+*.sublime-menu text eol=lf
+*.sublime-settings text eol=lf
+*.sublime-syntax text eol=lf
+*.sublime-color-scheme text eol=lf
+
+# Code / docs
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf
+
+# Binary / archives
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary
+*.sublime-package binary

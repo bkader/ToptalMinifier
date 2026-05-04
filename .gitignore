@@ -1,0 +1,22 @@
+# Sublime / Package Control generated
+package-metadata.json
+*.sublime-workspace
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor junk
+.vscode/
+.idea/
+
+# Archives/build output
+*.sublime-package
+dist/
+build/

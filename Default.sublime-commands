@@ -1,0 +1,24 @@
+[
+    {
+        "caption": "Toptal Minifier: Minify Current CSS/JS In Place",
+        "command": "toptal_minifier_replace"
+    },
+    {
+        "caption": "Toptal Minifier: Minify Current CSS/JS To New View",
+        "command": "toptal_minifier_new_view"
+    },
+    {
+        "caption": "Toptal Minifier: Minify Current CSS/JS To Clipboard",
+        "command": "toptal_minifier_copy"
+    },
+    {
+        "caption": "Toptal Minifier: Minify As CSS In Place",
+        "command": "toptal_minifier_replace",
+        "args": {"kind": "css"}
+    },
+    {
+        "caption": "Toptal Minifier: Minify As JavaScript In Place",
+        "command": "toptal_minifier_replace",
+        "args": {"kind": "js"}
+    }
+]
