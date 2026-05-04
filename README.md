@@ -20,8 +20,7 @@ Do not use this package for private, sensitive, licensed, or proprietary source 
 - Minify to clipboard
 - Command Palette entries
 - Tools menu entries
-- Context menu entries
-- Keyboard shortcuts
+- Package settings menu
 
 ## Installation
 
@@ -54,10 +53,43 @@ Open a CSS or JavaScript file, then run one of these commands from the Command P
 - `Toptal Minifier: Minify As CSS In Place`
 - `Toptal Minifier: Minify As JavaScript In Place`
 
-Default key binding:
+The same commands are also available from:
 
-- Windows/Linux: `Ctrl+Alt+Shift+M`
-- macOS: `Cmd+Alt+Shift+M`
+```text
+Tools > Toptal Minifier
+```
+
+## Optional key binding
+
+ToptalMinifier does not install a default key binding.
+
+To add one, open:
+
+```text
+Preferences > Key Bindings
+```
+
+Then add this to your user key bindings:
+
+```json
+[
+    {
+        "keys": ["ctrl+alt+shift+m"],
+        "command": "toptal_minifier_replace"
+    }
+]
+```
+
+On macOS, use:
+
+```json
+[
+    {
+        "keys": ["super+alt+shift+m"],
+        "command": "toptal_minifier_replace"
+    }
+]
+```
 
 ## Settings
 
@@ -77,11 +109,22 @@ Available settings:
 }
 ```
 
-## Privacy note
+### JavaScript config
 
-This package sends the selected code or current file content to Toptal's online minifier APIs.
+The `javascript_config` setting is forwarded to Toptal's JavaScript Minifier API as the `config` field.
 
-Do not use this package for private, sensitive, licensed, or proprietary source code unless you are allowed to send that code to a third-party service.
+Example:
+
+```json
+{
+    "javascript_config": {
+        "minify": true,
+        "jsc": {
+            "target": "es2022"
+        }
+    }
+}
+```
 
 ## Requirements
 
