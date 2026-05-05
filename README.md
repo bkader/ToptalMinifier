@@ -104,7 +104,7 @@ Available settings:
 ```json
 {
     "timeout_seconds": 30,
-    "user_agent": "Sublime Text Toptal Minifier/1.0.0",
+    "user_agent": "Sublime Text Toptal Minifier",
     "javascript_config": null
 }
 ```

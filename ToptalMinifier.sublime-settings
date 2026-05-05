@@ -3,7 +3,7 @@
     "timeout_seconds": 30,
 
     // Sent with API requests. Change this if you want to identify your local tooling differently.
-    "user_agent": "Sublime Text Toptal Minifier/1.0.0",
+    "user_agent": "Sublime Text Toptal Minifier",
 
     // Optional JavaScript minifier config forwarded as the Toptal API `config` field.
     // Toptal documents this as SWC-compatible config.

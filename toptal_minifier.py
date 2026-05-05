@@ -124,7 +124,7 @@ def parse_error_body(body):
 
 def minify_with_toptal(target, source):
     timeout = int(setting("timeout_seconds", 30))
-    user_agent = str(setting("user_agent", "Sublime Text Toptal Minifier/1.0.0"))
+    user_agent = str(setting("user_agent", "Sublime Text Toptal Minifier"))
 
     form = {"input": source}
 
