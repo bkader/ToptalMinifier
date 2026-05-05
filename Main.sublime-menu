@@ -13,7 +13,7 @@
                                 "command": "edit_settings",
                                 "args": {
                                     "base_file": "${packages}/ToptalMinifier/ToptalMinifier.sublime-settings",
-                                    "default": "{\n    \"timeout_seconds\": 30,\n    \"user_agent\": \"Sublime Text Toptal Minifier/1.0.0\",\n    \"javascript_config\": null\n}\n"
+                                    "default": "{\n}\n"
                                 }
                             }
                         ]

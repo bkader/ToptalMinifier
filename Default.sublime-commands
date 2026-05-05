@@ -20,5 +20,13 @@
         "caption": "Toptal Minifier: Minify As JavaScript In Place",
         "command": "toptal_minifier_replace",
         "args": {"kind": "js"}
+    },
+    {
+        "caption": "Preferences: ToptalMinifier Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/ToptalMinifier/ToptalMinifier.sublime-settings",
+            "default": "{\n}\n"
+        }
     }
 ]
